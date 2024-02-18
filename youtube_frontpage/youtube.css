@@ -1,0 +1,148 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: black;
+    color: white;
+} */
+.top{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px ;
+}
+.top-first{
+    display: flex;
+    gap: 15px;
+    margin-left: 5px;
+}
+.youtube-logo{
+    height: 25px;
+}
+.three-icon{
+    height: 15px;
+}
+.middle-search{
+    display: flex;
+}
+.search-box{
+    height: 30px;
+    width: 400px;
+    margin-top: 5px ;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px;
+    border: 1px solid black;
+}
+.search-icon {
+    height: 31.5px;
+    width: 50px;
+    margin-top: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid black ;
+    border-left: none;
+}
+.mic-icon{
+    height: 32px;
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: none;
+}
+.top-end{
+    display: flex;
+    gap: 25px;
+    margin-right: 10px;
+    font-size: 23px;
+}
+.left-side{
+    height: 60%;
+    width: 25px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.l1 i{
+    font-size: 21px;
+}
+.l2,.l3,.l4{
+    margin-top: 20px;
+}
+
+.l4 img {
+    height: 30px;
+    width: 30px;
+}
+.l2 img{
+    height: 28px;
+    width: 28px;
+}
+.box{
+    display: flex;
+}
+.right-box{
+    padding: 20px ;
+    margin-top: 20px;
+    height: 485px;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+   grid-auto-rows: minmax(180px,auto);
+}
+.right-box>div{
+    border-radius: 20px;
+    background-image: url('images/thumbnail.png');
+    background-size: 100% 125px;
+    background-repeat: no-repeat; 
+}
+.one-last{
+    margin-top: 127px;
+    height: 50px;
+    width: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;   
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 12px;
+}
+.text-1 img{
+    height: 30px;
+    margin-left: 10px;
+}
+.text-2{
+    width: 150px;
+}
+.three-dot{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.middle{
+    position: absolute;
+    top: 9%;
+    height: 35px;
+    width: 90%;
+    margin-left: 90px;
+    display: flex;
+    gap: 20px;
+    padding: 0px 5px;
+}
+.middle>button{ 
+    height: fit-content;
+    margin-top: 5px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+}
