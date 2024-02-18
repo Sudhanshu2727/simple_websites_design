@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+:root{
+  --purple500 :#281154; 
+  --purple300 :#270082;
+  --purple600 :#1b0058;
+  --red600:#dc0000;
+  --body:#f9f6ff;
+  --max-width:1200px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  font-family:  sans-serif;
+  
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+ul{
+  list-style: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+  
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+header{
+  background-color: var(--purple300);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 10px 10px 10px black;
+  
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  
+}
+.logo{
+  font-size: 40px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  gap: 20px;
+}
+nav ul li{
+  border-bottom: 2px solid transparent;
+  transition: ease-in;
+}
+nav ul li:hover{
+  border-bottom: 2px solid white;
+  transition: ease-in;
+}
+.hero-section{
+  background-image: url('images/hero_image.png');
+  height: 100vh;
+  color: white;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+.hero-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.container h1{
+  font-size: 96px;
+
+}
+.container h3{
+  font-size: 25px;
+}
+.music-section{
+  height: 100vh;
+  background-color:#281154;
+
+}
+.music-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  color: white;
+  position: relative;
+  top: 120px;
+  
+}
+/*  isme dekhna hai text thoda changing lag rha hai  */
+.container h4{
+  font-size: 30px;
+  
+}
+.container h5{
+  font-size: 15px;
+ 
+}
+.container button{
+  background-color: var(--red600);
+  color: white;
+  padding: 10px 10px;
+}
+.container p{
+
+}
+.ipad-image{
+  background-image: url('images/ipad-iphone.png');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 150px;
+  position: relative;
+  
+}
+.mac{
+  height: 100vh;
+  
+
+}
+.mac-text{
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin-top: 450px;
+  
+}
+.mac-text h4{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.mac-text p{
+  font-size: 15px;
+  font-weight:lighter;
+  align-items: center;
+  padding: 0 30px;
+}
+.mac-text button{
+  background-color: var(--purple300);
+  color: white;
+  padding: 10px 15px;
+}
+.mac-image{
+  background-image: url('images/mac.png');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 50px;
+}
+.video-section{
+  height: 100vh;
+  
+  margin-top: 300px;
+  display: grid;
+  place-content: center;
+  background-image: url('images/video.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-text{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  color: white;
+  padding: 0 35px;
+}
+.video-text h4{
+  font-size: 20px;
+  
+}
+/*   kaise uska color light kar de rha hai  */
+.video-text p{
+
+}
+.gift-card{
+  height: 100vh;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding: 0 50px;
+  
+}
+.gift-image{
+  background-image: url('images/gift_card.png');
+  height: 500px;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 80px;
+}
+.gift-text{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 700px;
+}
+.gift-card button{
+  background-color: var(--purple300);
+  color: white;
+  padding: 10px 10px ;
+  width: fit-content;
+}
+.last-block{
+  margin-top: 50px ;
+  display: flex;
+  gap: 150px;
+  background-color:#1b0058;
+  color: white;
+  padding: 20px 20px ;
+}
+.one h5{
+  font-size: 20px;
+}
+.one{
+  padding: 0 10px ;
+}
+.one hr{
+  height: 2px;
+  background-color: white;
+  margin-top: 8px;
+}
+.last{
+  height: 60px ;
+  background-color: #270082;
+  color: white;
+  display: grid;
+  place-content: center;
+  align-items: center;
+}
